@@ -20,6 +20,7 @@ export default function Hero() {
                     </Link>
                 </div>
                 <div className="relative w-full md:w-1/2 h-96 hover:scale-105 transform transition duration-200 ease-in-out">
+                {/* public\hero.svg */}
                     <Image
                         src="./hero.svg"
                         alt="Hero Image"

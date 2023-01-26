@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 import { FaBook, FaHome, FaYoutube } from 'react-icons/fa';
 
 export default function Article() {
@@ -9,7 +9,7 @@ export default function Article() {
     const tools = [
         {
             name: 'Next.js',
-            image: '/images/next.svg',
+            image: 'next.svg',
             uses: 'React Framework',
             tagline: 'The React Framework for Production',
             homepage: 'https://nextjs.org/',
@@ -18,7 +18,7 @@ export default function Article() {
         },
         {
             name: 'Tailwind CSS',
-            image: '/images/tailwindcss.jpg',
+            image: 'tailwindcss.jpg',
             uses: 'CSS Framework',
             tagline: 'A utility-first CSS framework for rapidly building custom designs.',
             homepage: 'https://tailwindcss.com/',
@@ -27,7 +27,7 @@ export default function Article() {
         },
         {
             name: 'SwiperJS',
-            image: '/images/swiperjs.png',
+            image: 'swiperjs.png',
             uses: 'Slider Library',
             tagline: 'The Most Modern Mobile Touch Slider.',
             homepage: 'https://swiperjs.com/',
@@ -36,7 +36,7 @@ export default function Article() {
         },
         {
             name: 'Spline',
-            image: '/images/spline.png',
+            image: 'spline.png',
             uses: 'Design Tool',
             tagline: 'Spline is a design tool that lets you create interactive prototypes without code.',
             homepage: 'https://spline.design/',
@@ -45,7 +45,7 @@ export default function Article() {
         },
         {
             name: 'Framer Motion',
-            image: '/images/framer-motion.png',
+            image: 'framer-motion.png',
             uses: 'Animation Library',
             tagline: 'Open source, production-ready animation and gesture library for React.',
             homepage: 'https://www.framer.com/motion/',
@@ -54,7 +54,7 @@ export default function Article() {
         },
         {
             name: 'React Icons',
-            image: '/images/react-icons.svg',
+            image: 'react-icons.svg',
             uses: 'Icon Library',
             tagline: 'Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.',
             homepage: 'https://react-icons.github.io/react-icons/',
@@ -63,7 +63,7 @@ export default function Article() {
         },
         {
             name: 'React Hook Form',
-            image: '/images/react-hook-form.jpg',
+            image: 'react-hook-form.jpg',
             uses: 'Form Library',
             tagline: 'Performant, flexible and extensible forms with easy-to-use validation.',
             homepage: 'https://react-hook-form.com/',
@@ -198,7 +198,7 @@ export default function Article() {
         },
         {
             name: 'MongoDB',
-            image: '/images/mongodb.png',
+            image: 'mongodb.png',
             uses: 'Database',
             tagline: 'MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.',
             homepage: 'https://www.mongodb.com/',
@@ -252,7 +252,7 @@ export default function Article() {
         },
         {
             name: 'Python',
-            image: '/images/python.png',
+            image: 'python.png',
             uses: 'Programming Language',
             tagline: 'Python is an interpreted, high-level and general-purpose programming language. Python\'s design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.',
             homepage: 'https://www.python.org/',
@@ -270,7 +270,7 @@ export default function Article() {
         },
         {
             name: 'JavaScript',
-            image: '/images/javascript.png',
+            image: 'javascript.png',
             uses: 'Programming Language',
             tagline: 'JavaScript is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.',
             homepage: 'https://www.javascript.com/',
@@ -288,7 +288,7 @@ export default function Article() {
         },
         {
             name: 'Kotlin',
-            image: '/images/kotlin.png',
+            image: 'kotlin.png',
             uses: 'Programming Language',
             tagline: 'Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of its standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.',
             homepage: 'https://kotlinlang.org/',
@@ -297,7 +297,7 @@ export default function Article() {
         },
         {
             name: 'Go',
-            image: '/images/go.jpeg',
+            image: 'go.jpeg',
             uses: 'Programming Language',
             tagline: 'Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.',
             homepage: 'https://golang.org/',
@@ -306,7 +306,7 @@ export default function Article() {
         },
         {
             name: 'Dart',
-            image: '/images/dart.png',
+            image: 'dart.png',
             uses: 'Programming Language',
             tagline: 'Dart is a client-optimized programming language for apps on multiple platforms. It is developed by Google and is used to build mobile, desktop, server, and web applications. Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript.',
             homepage: 'https://dart.dev/',
@@ -315,7 +315,7 @@ export default function Article() {
         },
         {
             name: 'Flutter',
-            image: '/images/flutter.webp',
+            image: 'flutter.webp',
             uses: 'UI Framework',
             tagline: 'Flutter is Google\'s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.',
             homepage: 'https://flutter.dev/',
@@ -324,7 +324,7 @@ export default function Article() {
         },
         {
             name: 'Bootstrap',
-            image: '/images/bootstrap.png',
+            image: 'bootstrap.png',
             uses: 'UI Framework',
             tagline: 'Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.',
             homepage: 'https://getbootstrap.com/',
@@ -333,7 +333,7 @@ export default function Article() {
         },
         {
             name: 'Material UI',
-            image: '/images/material-ui.png',
+            image: 'material-ui.png',
             uses: 'UI Framework',
             tagline: 'Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.',
             homepage: 'https://material-ui.com/',
@@ -342,7 +342,7 @@ export default function Article() {
         },
         {
             name: 'Git',
-            image: '/images/git.png',
+            image: 'git.png',
             uses: 'Version Control',
             tagline: 'Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.',
             homepage: 'https://git-scm.com/',
@@ -351,7 +351,7 @@ export default function Article() {
         },
         {
             name: 'GitHub',
-            image: '/images/github.jpeg',
+            image: 'github.jpeg',
             uses: 'Version Control',
             tagline: 'GitHub is a web-based hosting service for version control using git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features.',
             homepage: 'https://github.com/',
@@ -360,7 +360,7 @@ export default function Article() {
         },
         {
             name: 'Sass',
-            image: '/images/sass.jpg',
+            image: 'sass.jpg',
             uses: 'CSS Preprocessor',
             tagline: 'Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. Sass is a stylesheet language that\'s compiled to CSS. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects.',
             homepage: 'https://sass-lang.com/',
@@ -378,7 +378,7 @@ export default function Article() {
         },
         {
             name: 'Html5',
-            image: '/images/html5.webp',
+            image: 'html5.webp',
             uses: 'Markup Language',
             tagline: 'HTML5 is the fifth and current major version of the HTML standard, and subsumes XHTML, which was the previous version of HTML. HTML5 is intended to subsume not only HTML 4, but also XHTML 1 and DOM Level 2 HTML.',
             homepage: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
@@ -396,7 +396,7 @@ export default function Article() {
         },
         {
             name: 'Docker',
-            image: '/images/docker.png',
+            image: 'docker.png',
             uses: 'Containerization',
             tagline: 'Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.',
             homepage: 'https://www.docker.com/',
@@ -405,7 +405,7 @@ export default function Article() {
         },
         {
             name: 'Kubernetes',
-            image: '/images/kubernetes.png',
+            image: 'kubernetes.png',
             uses: 'Container Orchestration',
             tagline: 'Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.',
             homepage: 'https://kubernetes.io/',
@@ -434,7 +434,11 @@ export default function Article() {
                 }).map((tool) => (
                     <div className="w-full md:w-1/2 lg:w-1/3 p-4" key={tool.name}>
                         {
-                            tool.image ? <div className='w-full object-contain rounded-t-md h-48 bg-white relative overflow-hidden'><Image src={tool.image} className="" fill alt={''} /> </div> :
+                            tool.image
+                                ?
+                                <div className='w-full object-contain rounded-t-md h-48 bg-white relative overflow-hidden'>
+                                    <Image src={`/images/${tool.image}`}
+                                        className="" fill alt={''} /> </div> :
                                 <div className="w-full object-contain rounded-t-md h-48 flex flex-col justify-center items-center bg-white text-teal-500 text-2xl font-bold tracking-widest">{tool.name}</div>
                         }
                         <div className="shadow-md rounded-b-md p-4 space-y-2 bg-white">
