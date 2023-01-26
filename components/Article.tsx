@@ -437,7 +437,7 @@ export default function Article() {
                             tool.image
                                 ?
                                 <div className='w-full object-contain rounded-t-md h-48 bg-white relative overflow-hidden'>
-                                    <Image src={`/images/${tool.image}`}
+                                    <Image src={`./images/${tool.image}`}
                                         className="" fill alt={''} /> </div> :
                                 <div className="w-full object-contain rounded-t-md h-48 flex flex-col justify-center items-center bg-white text-teal-500 text-2xl font-bold tracking-widest">{tool.name}</div>
                         }
