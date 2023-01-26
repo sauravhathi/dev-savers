@@ -21,7 +21,7 @@ export default function Hero() {
                 </div>
                 <div className="relative w-full md:w-1/2 h-96 hover:scale-105 transform transition duration-200 ease-in-out">
                     <Image
-                        src="/hero.svg"
+                        src="./hero.svg"
                         alt="Hero Image"
                         fill
                         className="object-contain"
