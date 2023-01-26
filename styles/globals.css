@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #292524;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2dd4bf;
+    border-radius: 1rem;
+  }
+}
